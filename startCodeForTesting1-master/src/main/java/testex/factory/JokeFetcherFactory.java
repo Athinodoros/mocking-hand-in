@@ -9,7 +9,7 @@ import java.util.List;
  * Created by Athinodoros on 3/14/2017.
  */
 public class JokeFetcherFactory implements IJokeFetcherFactory {
-    private final List<String> availableTypes = Arrays.asList("eduprog", "chucknorris", "moma", "tambal");
+    private final List<String> availableTypes = Arrays.asList("EduJoke", "ChuckNorris", "Moma", "Tambal");
     @Override
     public List<String> getAvailableTypes() {
         return availableTypes;
